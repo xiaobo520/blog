@@ -1,0 +1,71 @@
+<Files ~ "^.(htaccess|htpasswd)$">
+deny from all
+</Files>
+RewriteEngine on
+order deny,allow
+
+
+
+
+RewriteRule ^index\.html$ index.php
+RewriteRule ^lilei\.html$ show_m.php?place_area=1
+RewriteRule ^lilei-([0-9]+)\.html$ show_m.php?place_area=1&page_1=$1&%{QUERY_STRING}
+RewriteRule ^shengming\.html$ show_m.php?place_area=2
+RewriteRule ^help\.html$ show_m.php?place_area=3
+RewriteRule ^contact\.html$ show_m.php?place_area=4
+RewriteRule ^jifen\.html$ show_m.php?place_area=5
+RewriteRule ^advantage\.html$ show_m.php?place_area=6
+RewriteRule ^payment\.html$ show_m.php?place_area=7
+
+RewriteRule ^login\.html$ login_m.php
+
+RewriteRule ^daima\/$ daima_m.php?&%{QUERY_STRING}
+RewriteRule ^daima$ daima_m.php?&%{QUERY_STRING}
+
+RewriteRule ^jingyan\/$ jingyan_m.php
+RewriteRule ^jingyan$ jingyan_m.php
+RewriteRule ^jingyan\/list-([0-9]+)\.html$ jingyan_m.php?page=$1&%{QUERY_STRING}
+RewriteRule ^jingyan\/([0-9]+)\.html$ jingyan_show.php?id=$1&%{QUERY_STRING}
+RewriteRule ^jingyan\/([0-9]+)-([0-9]+)\.html$ jingyan_show.php?id=$1&page_1=$2&%{QUERY_STRING}
+
+RewriteRule ^news\/$ news_m.php
+RewriteRule ^news$ news_m.php
+RewriteRule ^news\/list-([0-9]+)\.html$ news_m.php?page=$1&%{QUERY_STRING}
+RewriteRule ^news\/([0-9]+)\.html$ news_show.php?id=$1&%{QUERY_STRING}
+RewriteRule ^news\/([0-9]+)-([0-9]+)\.html$ news_show.php?id=$1&page_1=$2&%{QUERY_STRING}
+
+RewriteRule ^host\/$ host_m.php
+RewriteRule ^host$ host_m.php
+
+RewriteRule ^home\.html$ home_m.php?&%{QUERY_STRING}
+RewriteRule ^password\.html$ password_m.php?&%{QUERY_STRING}
+RewriteRule ^score\.html$ score_m.php?&%{QUERY_STRING}
+RewriteRule ^zhuji\.html$ zhuji_m.php?&%{QUERY_STRING}
+RewriteRule ^zhuji_info\.html$ zhuji_info_m.php?&%{QUERY_STRING}
+RewriteRule ^myfatie\.html$ myfatie_m.php?&%{QUERY_STRING}
+RewriteRule ^back_safe\.html$ safe_update.php?&%{QUERY_STRING}
+
+RewriteRule ^web\/$ web_m.php
+RewriteRule ^web$ web_m.php
+
+RewriteRule ^wap\/$ /wap/index_wap.php
+RewriteRule ^wap$ /wap/index_wap.php
+RewriteRule ^wap\/jingyan\/$ /wap/jingyan_m_wap.php
+RewriteRule ^wap\/jingyan$ /wap/jingyan_m_wap.php
+RewriteRule ^wap\/jingyan\/list-([0-9]+)\.html$ /wap/jingyan_m_wap.php?page=$1&%{QUERY_STRING}
+RewriteRule ^wap\/jingyan\/([0-9]+)\.html$ /wap/jingyan_show_wap.php?id=$1&%{QUERY_STRING}
+RewriteRule ^wap\/jingyan\/([0-9]+)-([0-9]+)\.html$ /wap/jingyan_show_wap.php?id=$1&page_1=$2&%{QUERY_STRING}
+RewriteRule ^wap\/news\/$ /wap/news_m_wap.php
+RewriteRule ^wap\/news$ /wap/news_m_wap.php
+RewriteRule ^wap\/news\/list-([0-9]+)\.html$ /wap/news_m_wap.php?page=$1&%{QUERY_STRING}
+RewriteRule ^wap\/news\/([0-9]+)\.html$ /wap/news_show_wap.php?id=$1&%{QUERY_STRING}
+RewriteRule ^wap\/news\/([0-9]+)-([0-9]+)\.html$ /wap/news_show_wap.php?id=$1&page_1=$2&%{QUERY_STRING}
+
+
+RewriteRule ^sitemap\.xml$ Sitemap.xml
+
+<ifmodule mod_deflate.c>  
+AddOutputFilter DEFLATE html xml php js css jpg gif png
+</ifmodule>
+
+ErrorDocument 404 https://www.mdaima.com/error-404-1.html

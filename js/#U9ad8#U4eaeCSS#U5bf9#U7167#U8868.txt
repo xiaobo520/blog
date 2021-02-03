@@ -1,0 +1,154 @@
+        1c.js	        Converted 1c.js to new class names.	10 months ago	
+	accesslog.js	Simple access logos format implemented, closes?#916	8 months ago
+	actionscript.js	Commonize hljs.METHOD_GUARD	2 months ago
+	apache.js	Corrected definitions of name, attr and attribute.	10 months ago
+	applescript.js	Converted applescript.js to new classes.	10 months ago
+	arduino.js	Reuse C++ keywords in Arduino	12 hours ago
+	armasm.js	Use 'built_in' instead of 'literal' for assembler registers.	10 months ago
+	asciidoc.js	Category "markup"	5 months ago
+	aspectj.js	Merge branch 'master' into new-styles	9 months ago
+	autohotkey.js	Zero out relevance of `A` literal in autohotkey.js	5 months ago
+	autoit.js	Define 'meta-string', 'meta-keyword'	5 months ago
+	avrasm.js	Updated avrasm.js to new class names.	10 months ago
+	axapta.js	Updated axapta.js to new class names.	10 months ago
+	bash.js	Don't highlight numbers in Bash	5 months ago
+	basic.js	Update BASIC language	4 months ago
+	bnf.js	Header formatting in bnf.js	3 days ago
+	brainfuck.js	Introduce hljs.COMMENT((begin, end, inherits) helper	a year ago
+	cal.js	Merge branch 'master' into new-styles	7 months ago
+	capnproto.js	Use 'symbol' for capnproto labels	5 months ago
+	ceylon.js	Update ceylon.js to new class names	6 months ago
+	clojure-repl.js	Updated clojure-repl.js to new class names.	9 months ago
+	clojure.js	Handle namespaced keywords in clojure.	12 days ago
+	cmake.js	Updated cmake.js to new class names.	9 months ago
+	coffeescript.js	Updated coffeescript.js to new class names.	10 months ago
+	cos.js	Remove COS from common category	5 months ago
+	cpp.js	Reuse C++ keywords in Arduino	12 hours ago
+	crmsh.js	Merge remote-tracking branch 'origin/master' into new-styles	6 months ago
+	crystal.js	Only allow meta-string inside Crystal attributes	a month ago
+	cs.js	remove duplicate keywords	9 days ago
+	csp.js	Added CSP definition highlighting	2 months ago
+	css.js	Fixes to Less selectors	2 months ago
+	d.js	Updated d.js to new class names.	9 months ago
+	dart.js	Additional Dart keywords.	3 months ago
+	delphi.js	Add aliases to Delphi. Closes?#1067	3 months ago
+	diff.js	Updated diff.js to new class names.	10 months ago
+	django.js	Don't use 'built_in' in templates	5 months ago
+	dns.js	Tune relevance of dns.js and maxima.js	12 days ago
+	dockerfile.js	Merge branch 'master' into new-styles	6 months ago
+	dos.js	Catch `rem` comments at the start of the line only	a month ago
+	dts.js	Remove trailing commas in DTS definition	12 days ago
+	dust.js	Update dust.js to new class names	8 months ago
+	elixir.js	Require non-whitespace after `:` for symbols	a month ago
+	elm.js	Merge branch 'master' into new-styles	8 months ago
+	erb.js	Make sub-languages always continuous.	10 months ago
+	erlang-repl.js	Updated erlang-repl.js to new class names.	10 months ago
+	erlang.js	Updated erlang.js to new class names.	10 months ago
+	fix.js	Updated fix.js to new class names.	9 months ago
+	fortran.js	Merge branch 'master' into new-styles	7 months ago
+	fsharp.js	Merge branch 'master' into new-styles	7 months ago
+	gams.js	Update Gams highlighting	a month ago
+	gauss.js	Reset relevance of keywords in Gauss	a month ago
+	gcode.js	Update gcode.js to new class names	6 months ago
+	gherkin.js	Zero relevance of a single `*` in Gherkin	2 months ago
+	glsl.js	Update glsl.js to new class names	6 months ago
+	go.js	Highlight function declarations in Go	17 days ago
+	golo.js	Built-int types to keywords for golo and kotlin	8 months ago
+	gradle.js	Remove trailing whitespace	2 years ago
+	groovy.js	Remove trailing spaces	a month ago
+	haml.js	Define 'selector-tag' class	8 months ago
+	handlebars.js	Don't use 'built_in' in templates	5 months ago
+	haskell.js	Fixed cross-detection problem between Elm and Haskell.	10 months ago
+	haxe.js	Define 'meta-string', 'meta-keyword'	5 months ago
+	hsp.js	Improve detection of anoter JavaScript snippet	26 days ago
+	htmlbars.js	Remove handlebars aliases from htmlbars	a month ago
+	http.js	Updated http.js to new class names.	9 months ago
+	inform7.js	Update inform7.js to new class names	7 months ago
+	ini.js	Renamed 'key' to 'attr'.	10 months ago
+	irpf90.js	Merge branch 'master' into new-styles	7 months ago
+	java.js	Include Jigsaw-terminology in keywords	a month ago
+	javascript.js	Handle self-closing tags with spaces in JSX	24 days ago
+	json.js	Include surrounding quotes in JSON keys	3 months ago
+	julia.js	Illegalize `</` in Groovy and Julia	5 months ago
+	kotlin.js	Merge branch 'kotlin'	19 days ago
+	lasso.js	Update lasso.js to new class names	8 months ago
+	less.js	Fixes to Less selectors	2 months ago
+	lisp.js	Updated lisp.js to new class names.	9 months ago
+	livecodeserver.js	Less relevance for livecode constructs	a month ago
+	livescript.js	Update livescript.js to new class names.	10 months ago
+	lua.js	Introduce hljs.COMMENT((begin, end, inherits) helper	a year ago
+	makefile.js	Define 'meta-string', 'meta-keyword'	5 months ago
+	markdown.js	End inline code in markdown immediately	a month ago
+	mathematica.js	Updated mathematica.js to new class names.	9 months ago
+	matlab.js	Updated matlab.js to new class names.	9 months ago
+	maxima.js	Tune relevance of dns.js and maxima.js	12 days ago
+	mel.js	Updated mel.js to new class names.	9 months ago
+	mercury.js	Updated mercury.js to new class names.	10 months ago
+	mipsasm.js	Add `move` to MIPS keywords	4 months ago
+	mizar.js	Introduce hljs.COMMENT((begin, end, inherits) helper	a year ago
+	mojolicious.js	Updated mojolicious.js to new class names.	9 months ago
+	monkey.js	Define 'meta-string', 'meta-keyword'	5 months ago
+	moonscript.js	Add origin reference to MoonScript meta data	19 days ago
+	nginx.js	Corrected definitions of name, attr and attribute.	10 months ago
+	nimrod.js	Reformat Nimrod keywords	2 months ago
+	nix.js	Update nix.js to new class names	8 months ago
+	nsis.js	Correct some NSIS class names	7 months ago
+	objectivec.js	Fix intraword builtins in objc	9 days ago
+	ocaml.js	Merge branch 'master' into new-styles	8 months ago
+	openscad.js	Define 'meta-string', 'meta-keyword'	5 months ago
+	oxygene.js	Include `.` in Oxygene keywords lexemes	a month ago
+	parser3.js	Updated parser3 to new class names.	9 months ago
+	perl.js	add pm as alias for perl syntax	20 days ago
+	pf.js	Fix forgotten code.expect.txt for markdown	a month ago
+	php.js	Highlight `$this` in PHP as a keyword	12 days ago
+	powershell.js	Removed unused dollarEscape from powershell.js.	9 months ago
+	processing.js	Updated processing.js to new class names.	9 months ago
+	profile.js	Updated profile.js to new class names.	9 months ago
+	prolog.js	Use 'symbol' for Prolog's variables.	9 months ago
+	protobuf.js	Updated protobuf.js to new class names.	9 months ago
+	puppet.js	Corrected definitions of name, attr and attribute.	10 months ago
+	purebasic.js	Use a plain string for PureBasic keywords	12 days ago
+	python.js	Handle return type annotations in Python	4 months ago
+	q.js	Updated q.ja to new class names.	9 months ago
+	qml.js	Demote relevance for section titles in QML	2 months ago
+	r.js	Drop high relevance from some R keywords.	a year ago
+	rib.js	More categories: enterprise, functional, graphics, protocols	2 years ago
+	roboconf.js	Corrected definitions of name, attr and attribute.	10 months ago
+	rsl.js	Updated rsl.js to new class names.	9 months ago
+	ruby.js	Require non-whitespace after `:` for symbols	a month ago
+	ruleslanguage.js	Merge branch 'master' into new-styles	9 months ago
+	rust.js	Add `usize` and `isize` keywords to Rust	12 days ago
+	scala.js	Drop unused 'typeParam' class name from Scala	5 months ago
+	scheme.js	Support '(quoted) in Scheme	2 months ago
+	scilab.js	Don't call transposed variables a 'symbol'.	9 months ago
+	scss.js	Define 'selector-tag' class	8 months ago
+	smali.js	Update smali.js to new class names	8 months ago
+	smalltalk.js	Update smalltalk.js to new class names	8 months ago
+	sml.js	Zero relevance of () and [] literals in SML	3 months ago
+	sqf.js	Define 'meta-string', 'meta-keyword'	5 months ago
+	sql.js	Swallow `.` when lexing SQL keywords	a month ago
+	stan.js	Few updates after Stan merge	4 months ago
+	stata.js	Zero relevance of single-letter keywords in Stata	12 days ago
+	step21.js	Shorter title for step21 language	5 months ago
+	stylus.js	Allow `{`, `}` and `;` in Stylus	4 months ago
+	swift.js	Remove unused illegals from Swift function modes	17 days ago
+	taggerscript.js	Drop gratuitous relevance from Tagger Script	2 months ago
+	tcl.js	Updated tcl.js to new class names.	9 months ago
+	tex.js	Category "markup"	5 months ago
+	thrift.js	Drop unused "stl_container" class.	a year ago
+	tp.js	Update tp to new styles	8 months ago
+	twig.js	Don't use 'built_in' in templates	5 months ago
+	typescript.js	Merge remote-tracking branch 'origin/master' into new-styles	6 months ago
+	vala.js	Add Posix to Vala built-ins	a month ago
+	vbnet.js	Define 'meta-string', 'meta-keyword'	5 months ago
+	vbscript-html.js	Make sub-languages always continuous.	10 months ago
+	vbscript.js	Introduce hljs.COMMENT((begin, end, inherits) helper	a year ago
+	verilog.js	verilog.js meta is using meta-keyword again.	4 days ago
+	vhdl.js	Updated vhdl.js to new class names.	9 months ago
+	vim.js	Fix?#1122	a month ago
+	x86asm.js	Update x86asm.js to new class names.	10 months ago
+	xl.js	Merge branch 'master' into new-styles	9 months ago
+	xml.js	add `xsd` and `xjb` as aliases for xml syntax	25 days ago
+	xquery.js	Drop gratuitous relevance from XQuery	2 months ago
+	yaml.js	Remove YAML from :common	6 months ago
+	zephir.js	Fix indentation in zephir.js	6 months ago

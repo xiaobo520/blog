@@ -1,0 +1,86 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML xmlns="http://www.w3.org/1999/xhtml">
+<HEAD>
+<TITLE>404错误 - 大胆哥博客 www.ubug.icu</TITLE>
+<META content="text/html; charset=gb2312" http-equiv=Content-Type>
+<STYLE type=text/css>
+BODY {
+	BACKGROUND: url(images/body.png) repeat-x;
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+}
+body,td,th {
+	font-size: 14px;
+	color: #2E2E2E;
+	font-family: 微软雅黑,Tahoma,Arial, Helvetica, sans-serif;
+}
+table tr td {font-family: 微软雅黑,Tahoma,Arial, Helvetica, sans-serif;}
+h1{ font-size:140px; color:#e4ebf8; font-family:"Times New Roman", Times, serif; font-style:italic; margin-top:-30px; margin-bottom:-30px;}
+
+a:link {
+	text-decoration: none;
+}
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: underline;
+}
+a:active {
+	text-decoration: none;
+}
+</STYLE>
+</HEAD>
+<BODY>
+
+<script language="JavaScript">
+	intLeft_1=4;
+		
+	function leavePage() {
+		if (1 == intLeft_1){
+			document.location.href="http://www.ubug.icu";
+		}else{
+			intLeft_1 -= 1;
+
+			document.getElementById("countdown").innerHTML = intLeft_1;
+			tbegin=setTimeout("leavePage()", 1000);
+		}
+	}
+	
+	//setTimeout('leavePage()',1000)   //部份服务器必须 onload调用
+</script>
+
+<table width="100%" border="0">
+  <tr>
+    <td colspan="3"><h1>404 Error</h1></td>
+  </tr>
+  <tr>
+    <td align="center">&nbsp;</td>
+    <td align="left"><img src="images/error.gif" width="540" height="230"></td>
+    <td align="center">&nbsp;</td>
+  </tr>
+  <tr>
+    <td height="38" align="center">&nbsp;</td>
+    <td height="38" align="left"><a href="http://www.ubug.icu/">&#9666;返回首页</a> <a 
+href="javascript:history.go(-1);">&#9666;返回上一页&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 还有&nbsp;<span id="countdown" style="color:#FF0000; font-size:28px; font-weight:bold"></span>&nbsp;秒，将自动跳转到网站首页 </a></td>
+    <td height="38" align="center">&nbsp;</td>
+  </tr>
+  <tr>
+    <td height="44" align="center">&nbsp;</td>
+    <td height="44" align="left">没有发现你要找的页面, 经砖家仔细研究结果如下:</td>
+    <td height="44" align="center">&nbsp;</td>
+  </tr>
+  <tr>
+    <td width="33%">&nbsp;</td>
+    <td width="34%" align="left" style="line-height:30px;">
+      <li>贵玉手输入地址时可能存在键入错误</li>
+      <li>小蜗牛把页面落家里忘记带了</li>
+      <li>电信网通那头接口生锈了</li></td>
+    <td width="33%">&nbsp;</td>
+  </tr>
+</table>
+
+<script >leavePage();</script>
+</BODY></HTML>

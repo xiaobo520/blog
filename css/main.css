@@ -1,0 +1,68 @@
+body,table,div,tr,td,input {
+	font-family: 微软雅黑,宋体,Arial, Helvetica, sans-serif;
+	font-size:12px;
+}
+
+a:link {
+	text-decoration: none;
+}
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+a:active {
+	text-decoration: none;
+}
+
+.m_header{ height:37px; line-height:37px; background:url(../images/b_01.gif) repeat-x;position:relative; z-index:2;font-size:12px;}
+.m_header a{ font-size:12px;}
+.m_banner{ height:80px; background:url(../images/b_02.gif) repeat-x; position:relative;z-index:1;}
+.m_radio{ height:44px; line-height:44px; background:url(../images/b_03.gif) repeat-x;position:relative;}
+.m_logo{ width:500px; height:85px; background:url(../images/logo.png) no-repeat; position:absolute; top:0;}
+.m_footer{ background:#1D354D; position:relative; color:#CCCCCC; line-height:60px; text-align:center; clear:both; height:60px;}
+.m_header,.m_banner,.m_radio,.m_footer,.m_container{padding:0 25px;}/*头部左右距离*/
+.m_dh{padding-top:32px;}/*导航位置控制*/
+
+.m_hr1{ clear:both; height:20px;}/*间距限制*/
+.m_hr2{ clear:both; border-bottom:1px solid #CCCCCC; margin:15px 0;}/*间距限制，带横线*/
+.m_hr3{ clear:both; height:0;}/*搜索下边间距限制*/
+
+#goTopBtn{ position:fixed; right:20px; bottom:20px; width:50px; height:50px; cursor:pointer;background:url(../images/top.png) no-repeat;background-position:0 0;text-align:center; font-size:12px;_position:absolute;_right:auto;_left:expression(eval(document.documentElement.scrollLeft+document.documentElement.clientWidth-this.offsetWidth)-(parseInt(this.currentStyle.marginLeft,10)||0)-(parseInt(this.currentStyle.marginRight,20)||0));_top:expression(eval(document.documentElement.scrollTop+document.documentElement.clientHeight-this.offsetHeight-(parseInt(this.currentStyle.marginTop,10)||0)-(parseInt(this.currentStyle.marginBottom,20)||0))); z-index:125;}
+#goTopBtn:hover{ background-position:-50px 0;}
+
+.table td input{ margin:0;}/*重定义input位置*/
+.loading{ position: fixed;width:240px; height:60px; line-height:60px;text-align:center; top:170px;z-index:999; background: #F6F6F6; border:7px solid #CCCCCC; left:50%;margin-left:-130px;-moz-border-radius:7px;-webkit-border-radius:7px;border-radius:7px;
+/*filter:alpha(opacity=70);*/ /*IE滤镜，透明度50%*/
+/*-moz-opacity:0.7; *//*Firefox私有，透明度50%*/
+/*opacity:0.7;*//*其他，透明度50%*/
+/*落到面包屑上*/
+}
+
+
+/*快捷搜索框，*/
+#showdanwei {
+	position:absolute;
+	width:176px;
+	z-index:99999;
+	max-height:240px;
+	height:expression( this.scrollHeight > 240 ? "240px" : "auto" );
+	overflow-y:scroll;
+	overflow-x:hidden;
+	display:none;
+	left:63px;
+	border:2px solid #CDCDCD;
+	-moz-border-radius:2px;-webkit-border-radius:2px;border-radius:2px;
+	
+	/*filter:alpha(opacity=90);-moz-opacity:0.9; opacity:0.9;*/  /*兼容IE，FF，*/
+	
+}
+#showdanwei table tr td {font-size:12px; line-height:25px; background:#F0F0F0}
+#showdanwei table tr td a{text-decoration:none; color:#000000}
+#showdanwei table tr td a:hover{color: #0066FF}
+/*快捷搜索框，*/
+
+#m_search_open a,#m_search_close a{ color:#333333}/*搜索展开收缩颜色*/
+
+.table_padding_10 { padding:0 20px; font-weight:bold;}
